@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JobLink</string>
+    <string name="google_text">Masuk menggunakan akun Google</string>
+    <string name="settings_file_name">com.example.joblink</string>
+</resources>

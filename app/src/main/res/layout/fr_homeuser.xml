@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_marginTop="-80dp"
+            android:src="@drawable/bg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    />
+    <LinearLayout
+            android:id="@+id/ll_linearhome"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="240dp">
+        <TextView
+                android:textSize="25dp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/obelix_pro_bit_cyr"
+                android:text="Job Link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <LinearLayout
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            <EditText
+                    android:textSize="15sp"
+                    android:id="@+id/tvSearch"
+                    android:padding="15dp"
+                    android:hint="Pekerjaan yang kamu cari?"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittxt_shape"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            <Button
+                    android:id="@+id/tvSearch2"
+                    android:drawableTop="@mipmap/ic_search"
+                    android:background="@color/greenTemplate"
+                    android:layout_weight="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <ListView
+            android:layout_below="@id/ll_linearhome"
+            android:id="@+id/rvData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_marginTop="0dp"/>
+</RelativeLayout>

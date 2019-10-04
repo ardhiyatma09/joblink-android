@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/bgLayout">
+    <android.support.v4.view.ViewPager
+            android:id="@+id/customViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <android.support.design.widget.TabLayout
+                android:id="@+id/customTabLayout"
+                android:background="@color/greenTemplate"
+                app:tabIconTint="#FFFFFF"
+                app:tabTextColor="@color/bnv_tab_item_foreground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </android.support.design.widget.TabLayout>
+    </android.support.v4.view.ViewPager>
+    <!--<android.support.design.widget.BottomNavigationView-->
+    <!--android:id="@+id/navigation"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--app:labelVisibilityMode="unlabeled"-->
+    <!--app:itemBackground="@color/greenTemplate"-->
+    <!--app:itemIconTint="@color/bnv_tab_item_foreground"-->
+    <!--app:itemTextColor="@color/bnv_tab_item_foreground"-->
+    <!--app:menu="@menu/navigation"/>-->
+    <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+    </FrameLayout>
+
+</RelativeLayout>

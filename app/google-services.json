@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "418211748871",
+    "firebase_url": "https://joblink-e7c44.firebaseio.com",
+    "project_id": "joblink-e7c44",
+    "storage_bucket": "joblink-e7c44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418211748871:android:e99d4346b652e3e67b1ea2",
+        "android_client_info": {
+          "package_name": "com.example.joblink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418211748871-qard84l2v41qv235g55q2iq56eghs6g8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joblink",
+            "certificate_hash": "52019e0f8cec9db708895dc419e6213a819548d8"
+          }
+        },
+        {
+          "client_id": "418211748871-easc7soa8psidnhfmj6jhk33k9skqiav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTj3ypl95VQEeWvqMpV6gcmvOjZvrO_Rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418211748871-easc7soa8psidnhfmj6jhk33k9skqiav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
